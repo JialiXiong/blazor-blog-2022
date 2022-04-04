@@ -19,7 +19,7 @@ public class BlogEntry : IComparable<BlogEntry>
 
         if (other != null)
         {
-            return 1 * TimePosted.CompareTo(other.TimePosted);
+            return -1 * TimePosted.CompareTo(other.TimePosted);
         }
         return 1;
 
